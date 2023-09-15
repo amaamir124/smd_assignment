@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chat"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp">
+
+    </TextView>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="20dp">
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/pfp1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_toRightOf="@+id/pfp1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Makenna Dias"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_below="@+id/name1"
+            android:layout_toRightOf="@+id/pfp1"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="1 new message"
+            android:textSize="16dp"
+            android:textColor="#FFA500"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/arrow1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrowright"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="20dp">
+    </View>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/pfp2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_toRightOf="@+id/pfp2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Miracle Phillips"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_below="@+id/name2"
+            android:layout_toRightOf="@+id/pfp2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="No new messages"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/arrow2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrowright"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="20dp">
+    </View>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/pfp3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+
+
+        <TextView
+            android:id="@+id/name3"
+            android:layout_toRightOf="@+id/pfp3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Zaire Gouse"
+            android:textSize="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_below="@+id/name3"
+            android:layout_toRightOf="@+id/pfp3"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="No new messages"
+            android:textSize="16dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp">
+
+        </TextView>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/arrow3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/arrowright"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="20dp">
+    </View>
+
+
+</LinearLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/mybottommenu">
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

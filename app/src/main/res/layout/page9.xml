@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_marginTop="7dp"
+            android:id="@+id/backbutton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/backarrow">
+
+        </ImageView>
+        <TextView
+            android:layout_toRightOf="@+id/backbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Makenna Dias"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:layout_marginLeft="15dp">
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#808080"
+        android:layout_marginTop="15dp">
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp">
+
+        <ImageView
+            android:id="@+id/pfp1"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+    <ImageView
+        android:id="@+id/text1"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/pfp1"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:src="@drawable/message">
+
+    </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/text1"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/text1">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_alignBottom="@+id/text1">
+
+        </TextView>
+
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/reply1"
+        android:layout_marginLeft="10dp"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/reply">
+
+    </ImageView>
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is a sample message"
+        android:textSize="16dp"
+
+        android:layout_alignStart="@+id/reply1"
+        android:layout_marginBottom="20dp"
+        android:layout_alignBottom="@+id/reply1">
+
+    </TextView>
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18:56"
+        android:textSize="14dp"
+        android:layout_toLeftOf="@+id/reply1"
+        android:layout_alignBottom="@+id/reply1">
+
+    </TextView>
+
+</RelativeLayout>
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/pfp2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/text2"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pfp2"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/text2"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/text2">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toRightOf="@+id/text2"
+            android:layout_alignBottom="@+id/text2">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/pfp3"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/text3"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pfp3"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/text3"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/text3">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toRightOf="@+id/text3"
+            android:layout_alignBottom="@+id/text3">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/pfp4"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/text4"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pfp4"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/text4"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/text4">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toRightOf="@+id/text4"
+            android:layout_alignBottom="@+id/text4">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/reply2"
+            android:layout_marginLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/reply">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/reply2"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/reply2">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toLeftOf="@+id/reply2"
+            android:layout_alignBottom="@+id/reply2">
+
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/reply3"
+            android:layout_marginLeft="10dp"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/reply">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/reply3"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/reply3">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toLeftOf="@+id/reply3"
+            android:layout_alignBottom="@+id/reply3">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:id="@+id/pfp5"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/text5"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/pfp5"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:src="@drawable/message">
+
+        </ImageView>
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is a sample message"
+            android:textSize="16dp"
+
+            android:layout_alignStart="@+id/text5"
+            android:layout_marginBottom="20dp"
+            android:layout_alignBottom="@+id/text5">
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18:56"
+            android:textSize="14dp"
+            android:layout_toRightOf="@+id/text5"
+            android:layout_alignBottom="@+id/text5">
+
+        </TextView>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#808080">
+
+    </View>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Write a reply..."
+        android:textSize="22dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+    </TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/camera"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/camera"
+            android:layout_marginLeft="15dp">
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/photos"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/photos"
+            android:layout_toRightOf="@+id/camera"
+            android:layout_marginLeft="15dp">
+
+
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/files"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/file"
+            android:layout_toRightOf="@+id/photos"
+            android:layout_marginLeft="15dp">
+
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:textColor="#ffa500"
+            android:textSize="25dp"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="10dp">
+
+        </TextView>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
